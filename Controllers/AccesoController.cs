@@ -12,12 +12,7 @@ namespace SISLOG.Controllers
         {
             _context = context;
         }
-        private readonly ILogger<AccesoController> _logger;
 
-        public AccesoController(ILogger<AccesoController> logger)
-        {
-            _logger = logger;
-        }
         public IActionResult Login()
         {
             return View();
