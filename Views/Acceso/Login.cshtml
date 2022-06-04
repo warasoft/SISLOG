@@ -34,7 +34,7 @@
         <div class="row text-center">
             <div class="col-lg-offset-4 col-md-4"></div>
             <div class="col-lg-offset-4 col-md-4">
-                <form method="post" asp-action="Login">
+                <form method="post" asp-controller="Acceso" asp-action="Login">
                         <!-- Email input -->
                         <div class="form-outline mb-4">
                             <input type="text" class="form-control" asp-for="Nombre" placeholder="NOMBRE"/>
@@ -44,7 +44,7 @@
                             <input type="password" id="form2Example2" class="form-control" asp-for="Clave" placeholder="CLAVE"/>
                         </div>
                         <!-- Submit button -->
-                        <button type="button" class="btn btn-primary btn-block mb-4">INGRESAR</button>
+                        <button type="submit" class="btn btn-primary btn-block mb-4">INGRESAR</button>
                     </form>
             </div>
             <div class="col-lg-offset-4 col-md-4"></div>
