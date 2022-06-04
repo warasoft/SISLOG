@@ -1,7 +1,14 @@
+using Microsoft.EntityFrameworkCore;
+using SISLOG.Data;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+//Entity Framework Core usa el contexto de la base de datos, junto con la cadena de conexión, para establecer una conexión con la base de datos. Debe indicar a Entity Framework Core qué contexto, cadena de conexión y proveedor de base de datos deben utilizar en el método.
+var connectionString = builder.Configuration.GetConnectionString("SislogContext");
+builder.Services.AddSqlite<SislogContext>(connectionString);
 
 var app = builder.Build();
 
