@@ -45,4 +45,6 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Acceso}/{action=Login}/{id?}");
 
+app.UseCookiePolicy();
+
 app.Run();
