@@ -16298,6 +16298,11 @@
   "RootNamespace": "SISLOG",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\j\\source\\repos\\SISLOG\\Views\\Home\\Administrar.cshtml",
+      "TargetPath": "Views\\Home\\Administrar.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\j\\source\\repos\\SISLOG\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
@@ -16315,6 +16320,11 @@
     {
       "FilePath": "c:\\Users\\j\\source\\repos\\SISLOG\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\j\\source\\repos\\SISLOG\\Views\\Acceso\\NoAutorizado.cshtml",
+      "TargetPath": "Views\\Acceso\\NoAutorizado.cshtml",
       "FileKind": "mvc"
     },
     {

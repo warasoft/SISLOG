@@ -66,5 +66,9 @@ namespace SISLOG.Controllers
 
             return RedirectToAction("Login","Acceso");
         }
+        public IActionResult NoAutorizado()
+        {
+            return View();
+        }
     }
 }

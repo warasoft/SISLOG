@@ -21,6 +21,12 @@ namespace SISLOG.Controllers
             return View();
         }
 
+        [Authorize(Roles = "Administrador")]
+        public IActionResult Administrar()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
